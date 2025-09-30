@@ -1,48 +1,47 @@
+type: PowerTurret
 name: "Paralyse"
 description: "Paralyses enemy targets using supercooled helium. Extremely long range."
 size: 3
 health: 550
 category: turret
 targetAir: false
-type: ContinuousLiquidTurret
 
 requirements: [
-    titanium/200  
-    silicon/150  
-    phase-fabric/50
-    surge-alloy/75 
+  titanium/200
+  silicon/150
+  phase-fabric/50
+  surge-alloy/75
 ]
 
 research: {
-    parent: chapter
-    requirements: [
-        silicon/5000
-        titanium/6800
-        phase-fabric/1500
-        surge-alloy/2300
-    ]
+  parent: chapter
+  requirements: [
+    silicon/5000
+    titanium/6800
+    phase-fabric/1500
+    surge-alloy/2300
+  ]
 }
 
-reloadTime: 75
-range: 800
+range: 500             # safe max
+reloadTime: 10          # fires continuously
 rotateSpeed: 3
 shootCone: 5
-inaccuracy: 0.01
-
-shootType: {
-  type: LiquidBulletType
-  range: 800
-  width: 1
-  damage: 500
-  status: unmoving
-  statusDuration: 5
-  colors: [ fec7ab, fec7ab, fec7ab ]
-}
 
 consumes: {
-    power: 100
-    liquid: {
-        liquid: liquid-helium
-        amount: 1.6666666666666666666666666666667
-    }
+  power: 100
+  liquid: {
+    liquid: liquid-helium
+    amount: 2
+  }
+}
+
+shootType: {
+  type: ContinuousLaserBulletType
+  damage: 15
+  width: 2
+  length: 500
+  status: unmoving
+  statusDuration: 180
+  colors: [ fec7ab, fec7ab, ffffff ]
 }
