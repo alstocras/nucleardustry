@@ -6,12 +6,12 @@ category: turret
 targetAir: false
 type: ContinuousLiquidTurret
 
-requirements: {
+requirements: [
     titanium/200  
     silicon/150  
     phase-fabric/50
     surge-alloy/75 
-}
+]
 
 research: {
     parent: chapter
