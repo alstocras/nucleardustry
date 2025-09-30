@@ -30,7 +30,7 @@ shootCone: 20
 
 consumes: {
   power: 50
-  liquid:{
+  liquid: {
       liquid: hydrogenliquid
       amount: 2
     }
