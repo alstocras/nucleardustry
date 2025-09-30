@@ -1,0 +1,41 @@
+name: "Paralyse"
+description: "Paralyses enemy targets using supercooled helium. Extremely long range."
+size: 3
+health: 550
+category: turret
+targetAir: false
+type: ContinuousTurret
+
+requirements: {
+    titanium/200  
+    silicon/150  
+    phase-fabric/50
+    surge-alloy/75 
+}
+
+research: {
+    parent: chapter
+    requirements: [
+        silicon/5000
+        titanium/6800
+        phase-fabric/1500
+        surge-alloy/2300
+    ]
+}
+
+recoil: 10
+reload: 75
+range: 800
+rotateSpeed: 3
+shootCone: 5
+inaccuracy: 0.01
+
+shootType: {
+  type: ContinuousLaserBulletType
+  range: 800
+  damage: 1000
+  width: 1
+  status: unmoving
+  statusDuration: 5
+  colors: [ fec7ab, fec7ab, fec7ab ]
+}
