@@ -23,18 +23,17 @@ research: {
     ]
 }
 
-recoil: 10
-reload: 75
+reloadTime: 75
 range: 800
 rotateSpeed: 3
 shootCone: 5
 inaccuracy: 0.01
 
 shootType: {
-  type: ContinuousLiquidType
+  type: LiquidBulletType
   range: 800
-  damage: 1000
   width: 1
+  damage: 500
   status: unmoving
   statusDuration: 5
   colors: [ fec7ab, fec7ab, fec7ab ]
