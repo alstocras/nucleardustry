@@ -43,7 +43,5 @@ shootType: {
   length: 500
   status: unmoving
   statusDuration: 180
-  status: freezing
-  statusDuration: 180
   colors: [ fe5a40, fe5a40, fe5a40 ]
 }
