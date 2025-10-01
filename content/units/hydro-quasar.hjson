@@ -17,7 +17,7 @@ weapons: [
     reload: 15
     recoil: 1
     rotate: true
-    bullet: {
+    shootType: {
       type: ContinuousLaserBulletType
       range: 320
       damage: 30
