@@ -1,0 +1,13 @@
+name: "Lithium"
+description: "Extremely volatile and reactive. Used in powerful batteries."
+explosiveness: 3
+flammability: 4
+temperature: 0.5
+color: 8f908d
+research: {
+    parent: liquid-helium
+    objectives: [
+        type: Produce
+        content: lithium
+    ]
+}

@@ -1,7 +1,7 @@
 name: "element-dustry"
 displayName: "Elemental Mindustry"
 author: alstocras
-description: "Adds elemental stuff to the game."
+description: "Adds elemental stuff to the game. And some physics and biology. And some biscuits, courtesy of reddycute."
 version: "7.0"
 minGameVersion: "146"
 dependencies: [ ]
