@@ -1,11 +1,12 @@
 name: "Hydro Quasar"
 description: "A unit that fuses hydrogen tightly together, spitting a red-hot laser"
 type: ground
-flying: true
 health: 200        
 armor: 4           
 speed: 2.5         
-hitSize: 1.5       
+hitSize: 1.5 
+constructor: UnitEntity::create
+
 
 weapons: [
   {
