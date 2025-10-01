@@ -19,12 +19,6 @@ weapons: [
     reload: 30       
     recoil: 1
     rotate: true
-    bullet: {
-      type: laser
-      length: 250      
-      damage: 50       
-      width: 2         
-      colors: [ ff0000, ffcff6, ffffff ]
-    }
+    bullet: laser  
   }
 ]
