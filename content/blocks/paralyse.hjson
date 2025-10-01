@@ -38,7 +38,7 @@ consumes: {
 
 shootType: {
   type: ContinuousLaserBulletType
-  damage: 15
+  damage: 7
   width: 2
   length: 500
   status: unmoving

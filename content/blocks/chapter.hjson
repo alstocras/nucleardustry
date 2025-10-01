@@ -39,7 +39,7 @@ consumes: {
 shootType: {
   type: ContinuousLaserBulletType
   range: 240
-  damage: 9
+  damage: 100
   width: 3
   colors: [ ff0000, ffcff6, ffffff ]
 }
