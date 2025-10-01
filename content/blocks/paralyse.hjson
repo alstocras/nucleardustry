@@ -1,6 +1,6 @@
 type: PowerTurret
 name: "Paralyse"
-description: "Paralyses enemy targets using supercooled helium. Extremely long range."
+description: "Paralyses enemy targets using supercooled helium. Close range."
 size: 3
 health: 550
 category: turret
@@ -23,7 +23,7 @@ research: {
   ]
 }
 
-range: 500             # safe max
+range: 220             # safe max
 reloadTime: 10          # fires continuously
 rotateSpeed: 3
 shootCone: 5
@@ -43,5 +43,7 @@ shootType: {
   length: 500
   status: unmoving
   statusDuration: 180
-  colors: [ fec7ab, fec7ab, ffffff ]
+  status: freezing
+  statusDuration: 180
+  colors: [ fe5a40, fe5a40, fe5a40 ]
 }

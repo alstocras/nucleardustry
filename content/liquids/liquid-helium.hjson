@@ -1,7 +1,7 @@
 gas: false
 name: "Liquid Helium"
 description: "The second lightest and most abundant element. Inert."
-color: fec7ab
+color: fe5a40
 flammability: 0
 explosiveness: 0
 research: {
