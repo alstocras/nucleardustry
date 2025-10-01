@@ -2,10 +2,10 @@ name: "Hydro Quasar"
 description: "A unit that fuses hydrogen tightly together, spitting a red-hot laser"
 type: mech
 flying: true
-hitSize: 30
+hitSize: 1.5
 health: 100
 armor: 3
-speed: 100
+speed: 3
 
 weapons: [
   {
