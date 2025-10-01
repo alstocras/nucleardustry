@@ -7,9 +7,22 @@ health: 100
 armor: 3
 speed: 100
 
-shootType: {
-    type: ContinousLaserBulletType
-    range: 320
-    damage: 30
-    width: 3
-}
+weapons: [
+  {
+    name: "quasar-laser"
+    top: false
+    x: 0        # centre mount
+    y: 0        # relative offset from body
+    shootY: 0
+    reload: 15
+    recoil: 1
+    rotate: true
+    bullet: {
+      type: ContinuousLaserBulletType
+      range: 320
+      damage: 30
+      width: 3
+      colors: [ ff0000, ffcff6, ffffff ]
+    }
+  }
+]
