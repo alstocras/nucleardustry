@@ -17,7 +17,7 @@ weapons: [
     recoil: 1
     rotate: true
     bullet: {
-      type: LaserBulletType   # engine-recognised class
+      type: FlameBulletType   # engine-recognised class
       damage: 50
       length: 250
       width: 2
