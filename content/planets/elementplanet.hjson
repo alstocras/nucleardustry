@@ -1,0 +1,41 @@
+type: planet
+localizedName: "Periodicity"
+description: "A cold and desolate planet, save for a few settlements."
+parent: sun
+alwaysUnlocked: true
+visible: true
+orbitRadius: 40
+orbitSpacing: 1
+drawOrbit: true
+radius: 2.5
+hasAtmosphere: true
+atmosphereColor: b7f2f7
+iconColor: b7f2f7
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+mesh: [
+  {
+    type: NoiseMesh
+    planet: elementplanet
+    seed: 1
+    radius: 1.22
+    color1: b7f2f7
+    color2: e6f4f5
+    divisions: 5
+    octaves: 4
+    persistence: 0.7
+  }
+]
+cloudMesh: [
+  {
+    type: HexSkyMesh
+    planet: elementplanet
+    speed: 1.2
+    radius: 0.2
+    color: e6f4f599
+    ...
+  }
+]
+
+
+
