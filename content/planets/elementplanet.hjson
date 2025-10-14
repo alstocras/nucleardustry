@@ -33,9 +33,18 @@ cloudMesh: [
     speed: 1.2
     radius: 0.2
     color: e6f4f599
-    ...
   }
 ]
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+startSector: 0
+accessible: true
+updateLighting: true
+allowWaveSimulation: true
+clearSectorOnLose: false
+allowWaves: true
 
 
 
