@@ -4,7 +4,7 @@ description: "A cold and desolate planet, save for a few settlements."
 parent: sun
 alwaysUnlocked: true
 visible: true
-orbitRadius: 40
+orbitRadius: 100
 orbitSpacing: 1
 drawOrbit: true
 radius: 2.5
@@ -31,7 +31,7 @@ cloudMesh: [
     type: HexSkyMesh
     planet: elementplanet
     speed: 1.2
-    radius: 0.2
+    radius: 0.1
     color: e6f4f599
   }
 ]
@@ -40,11 +40,13 @@ allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
+sectorSize: 1
 accessible: true
 updateLighting: true
 allowWaveSimulation: true
 clearSectorOnLose: false
 allowWaves: true
+defaultCore: core-nucleus
 
 
 
