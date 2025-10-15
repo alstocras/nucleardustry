@@ -1,3 +1,6 @@
 type: StaticWall
 name: Solid Hydrogen Wall 
 description: "Solidified hydrogen that has formed due to the extreme temperatures."
+attributes: {
+    solid-hydrogen: 1
+}

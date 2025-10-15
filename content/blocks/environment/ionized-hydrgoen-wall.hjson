@@ -1,0 +1,6 @@
+type: StaticWall
+name: Ionized Hydrogen Wall 
+description: "A wall that had previously contained hydrogen, now ionized. Requires specialized equipment to extract ions."
+attributes: {
+    proton: 1
+}

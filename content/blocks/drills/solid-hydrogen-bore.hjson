@@ -1,0 +1,13 @@
+type: WallCrafter
+name: Hydrogen Wall Extractor
+planet: elementplanet
+description: Extracts bits of hydrogen from solid hydrogen walls.
+size: 2
+category: production
+research: core-nucleus
+requirements: [
+    solid-hydrogen/20
+]
+drillTime: 240
+output: solid-hydrogen
+attribute: solid-hydrogen

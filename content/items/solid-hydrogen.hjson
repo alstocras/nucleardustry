@@ -1,0 +1,15 @@
+name: "Solid Hydrogen"
+description: "A light and abundant element, a primitive resource on Periodicity."
+explosiveness: 0
+flammability: 4
+charge: 0
+color: 8f908d
+research: {
+    parent: core-nucleus
+    objectives: [
+        {
+        type: Produce
+        content: solid-hydrogen
+        }
+    ]
+}
