@@ -1,5 +1,5 @@
-type: WallCrafter
-name: Hydrogen Wall Extractor
+type: Bore
+name: Hydrogen Wall Bore
 planet: elementplanet
 description: Extracts bits of hydrogen from solid hydrogen walls.
 size: 2
