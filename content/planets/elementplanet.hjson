@@ -37,8 +37,8 @@ cloudMesh: [
 ]
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
-allowLaunchLoadout: false
-allowSectorInvasion: false
+allowLaunchLoadout: true
+allowSectorInvasion: true
 startSector: 0
 sectorSize: 1
 accessible: true
