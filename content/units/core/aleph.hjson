@@ -23,7 +23,7 @@ weapons: [
             rotate: true
             inaccuracy: 2
             damage: 10
-            shootSound: laserbeam
+            shootSound: sap
         }
     }
 ]
