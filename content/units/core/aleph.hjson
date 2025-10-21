@@ -16,11 +16,14 @@ alwaysUnlocked: true
 hitSize: 10
 weapons: [
     {
-        bullet: sap
-        shootCone: 15
-        rotate: true
-        inaccuracy: 2
-        shootSound: shoot2
+        bullet: {
+            type: SapBulletType
+            shootCone: 15
+            rotate: true
+            inaccuracy: 2
+            damage: 10
+            shootSound: laserbeam
+        }
     }
 ]
 constructor: mech
