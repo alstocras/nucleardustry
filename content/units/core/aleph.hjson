@@ -1,0 +1,26 @@
+type: flying
+name: Aleph
+description: Defends the Proximity core from enemies. Builds structures and mines ores.
+health: 125
+armor: 0.5
+mineFloor: true
+mineWalls: true
+speed: 2
+isEnemy: false
+mineSpeed: 3
+mineTier: 1
+buildSpeed: 0.6
+drag: 0.4
+itemCapacity: 20
+alwaysUnlocked: true
+hitSize: 10
+weapons: [
+    {
+        bullet: sap
+        shootCone: 15
+        rotate: true
+        inaccuracy: 2
+        shootSound: shoot2
+    }
+]
+constructor: mech
