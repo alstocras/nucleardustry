@@ -1,0 +1,21 @@
+type: CoreBlock
+name: Core: Proximity
+description: Core of the base. Relatively well armoured.
+requirements: [
+  solid-hydrogen/3000
+]
+isFirstTier: true
+size: 3
+squareSprite: false
+alwaysUnlocked: true
+unitType: aleph
+health: 2000
+itemCapacity: 5000
+unitCapModifier: 8
+category: effect
+research: {
+  planet: elementplanet
+  root: true
+  name: Periodicity
+  requiresUnlock: false
+}
