@@ -8,8 +8,8 @@ research: core-proximity
 requirements: [
     solid-hydrogen/20
 ]
+tier: 1
 drillTime: 240
-output: solid-hydrogen
-drillables:{
+drillables: [
     solid-hydrogen-wall
-}
+]
