@@ -4,10 +4,12 @@ planet: elementplanet
 description: Extracts bits of hydrogen from solid hydrogen walls.
 size: 2
 category: production
-research: core-nucleus
+research: core-proximity
 requirements: [
     solid-hydrogen/20
 ]
 drillTime: 240
 output: solid-hydrogen
-attribute: solid-hydrogen
+drillables:{
+    solid-hydrogen-wall
+}

@@ -46,7 +46,7 @@ updateLighting: true
 allowWaveSimulation: true
 clearSectorOnLose: false
 allowWaves: true
-defaultCore: core-nucleus
+defaultCore: core-proximity
 
 
 
