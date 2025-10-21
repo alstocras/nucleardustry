@@ -22,7 +22,7 @@ weapons: [
             shootCone: 15
             rotate: true
             inaccuracy: 2
-            damage: 10
+            damage: 5
             shootSound: sap
         }
     }
