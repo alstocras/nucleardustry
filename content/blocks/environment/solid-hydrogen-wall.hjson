@@ -4,5 +4,4 @@ description: Solidified hydrogen that has formed due to extreme cold.
 drillable: solid-hydrogen
 itemDrop: solid-hydrogen
 buildable: false
-alwaysUnlocked: true
-category: none
+alwaysUnlocked: false
