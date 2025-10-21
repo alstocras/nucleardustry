@@ -13,3 +13,4 @@ drillTime: 240
 drillables: [
     solid-hydrogen-wall
 ]
+ambientSound: drill
