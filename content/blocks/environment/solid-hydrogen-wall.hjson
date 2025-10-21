@@ -1,4 +1,8 @@
-type: StaticWall
-name: Solid Hydrogen Wall 
-description: "Solidified hydrogen that has formed due to the extreme temperatures."
+type: Wall
+name: solid-hydrogen-wall
+description: Solidified hydrogen that has formed due to extreme cold.
 drillable: solid-hydrogen
+itemDrop: solid-hydrogen
+buildable: false
+alwaysUnlocked: true
+category: none
