@@ -1,0 +1,14 @@
+type: Conveyor
+name: Mechanical Transporter
+description: Transports items slowly, using no power.
+category: distribution
+alwaysUnlocked: true
+research: core-proximity
+researchCost: [
+    solid-hydrogen/10
+]
+speed: 7
+health: 30
+requirements: [
+    solid-hydrogen/1
+]
