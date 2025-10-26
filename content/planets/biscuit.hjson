@@ -1,0 +1,52 @@
+type: planet
+localizedName: "Biscuits 'n' cream"
+description: "A planet full of sweets. Very creamy."
+parent: sun
+alwaysUnlocked: true
+visible: true
+orbitRadius: 25
+orbitSpacing: 1
+drawOrbit: true
+radius: 1.75
+hasAtmosphere: true
+atmosphereColor: db8d4d
+iconColor: db8d4d
+atmosphereRadIn: 0
+atmosphereRadOut: 0.1
+mesh: [
+  {
+    type: NoiseMesh
+    planet: biscuit
+    seed: 1
+    radius: 2.5
+    color1: db8d4d
+    color2: e6b79c
+    divisions: 6
+    octaves: 4
+    persistence: 0.7
+  }
+]
+cloudMesh: [
+  {
+    type: HexSkyMesh
+    planet: biscuit
+    speed: 7
+    radius: 0.2
+    color: a3968e99
+  }
+]
+allowLaunchSchematics: true
+allowLaunchToNumbered: false
+allowLaunchLoadout: true
+allowSectorInvasion: false
+startSector: 0
+sectorSize: 1
+accessible: true
+updateLighting: true
+allowWaveSimulation: true
+clearSectorOnLose: false
+allowWaves: true
+defaultCore: core-nucleus
+
+
+

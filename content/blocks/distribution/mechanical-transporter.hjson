@@ -7,7 +7,7 @@ research: core-proximity
 researchCost: [
     solid-hydrogen/10
 ]
-speed: 7
+speed: 0.03
 health: 30
 requirements: [
     solid-hydrogen/1
