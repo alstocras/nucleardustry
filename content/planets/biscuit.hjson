@@ -7,7 +7,7 @@ visible: true
 orbitRadius: 25
 orbitSpacing: 1
 drawOrbit: true
-radius: 1.75
+radius: 2
 hasAtmosphere: true
 atmosphereColor: db8d4d
 iconColor: db8d4d
