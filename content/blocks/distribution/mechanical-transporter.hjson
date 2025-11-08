@@ -13,3 +13,4 @@ requirements: [
     solid-hydrogen/1
 ]
 region: mechanical-transporter
+junctionReplacement: mechanical-junction

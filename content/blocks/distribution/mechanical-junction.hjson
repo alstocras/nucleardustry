@@ -1,0 +1,4 @@
+type: Junction
+name: Mechanical Junction
+description: Allows two transporter lines to intersect cleanly.
+capacity: 1
