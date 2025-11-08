@@ -12,4 +12,4 @@ health: 30
 requirements: [
     solid-hydrogen/1
 ]
-sprite: mechanical-transporter
+region: mechanical-transporter
