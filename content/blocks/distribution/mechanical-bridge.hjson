@@ -11,6 +11,6 @@ researchCost: [
 ]
 range: 4
 pulse: true
-bridgeRegion: mechanical-bridge-bridge
-endRegion: mechanical-bridge-end
-arrowRegion: bridge-arrow
+bridgeRegion: blocks/mechanical-bridge-bridge
+endRegion: blocks/mechanical-bridge-end
+arrowRegion: blocks/bridge-arrow
