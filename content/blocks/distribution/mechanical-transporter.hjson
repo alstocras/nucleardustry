@@ -14,3 +14,4 @@ requirements: [
 ]
 region: mechanical-transporter
 junctionReplacement: mechanical-junction
+bridReplacement: mechanical-junction

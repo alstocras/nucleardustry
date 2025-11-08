@@ -1,0 +1,11 @@
+type: BufferedItemBridge
+name: Mechanical Bridge
+description: Transports items over terrain and buildings.
+requirements: [
+    solid-hydrogen/5
+]
+category: distribution
+research: mechanical-transporter
+researchCost: [
+    solid-hydrogen/15
+]
