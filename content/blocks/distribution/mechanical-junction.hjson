@@ -2,3 +2,11 @@ type: Junction
 name: Mechanical Junction
 description: Allows two transporter lines to intersect cleanly.
 capacity: 1
+requirements: [
+    solid-hydrogen/2
+]
+category: distribution
+research: mechanical-transporter
+researchCost: [
+    solid-hydrogen/10
+]
