@@ -10,7 +10,6 @@ researchCost: [
     solid-hydrogen/15
 ]
 range: 4
-pulse: true
 bridgeRegion: blocks/mechanical-bridge-bridge
 endRegion: blocks/mechanical-bridge-end
 arrowRegion: blocks/bridge-arrow
