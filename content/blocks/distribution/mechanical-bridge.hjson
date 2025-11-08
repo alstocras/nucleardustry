@@ -9,3 +9,5 @@ research: mechanical-transporter
 researchCost: [
     solid-hydrogen/15
 ]
+range: 4
+pulse: true
