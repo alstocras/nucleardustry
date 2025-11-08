@@ -13,3 +13,4 @@ range: 4
 pulse: true
 bridgeRegion: mechanical-bridge-bridge
 endRegion: mechanical-bridge-end
+arrowRegion: bridge-arrow
