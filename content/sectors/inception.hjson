@@ -6,5 +6,4 @@ sector: 0
 core: core-proximity
 captureWave: 10
 difficulty: 1
-research: core-nucleus
 alwaysUnlocked: true
