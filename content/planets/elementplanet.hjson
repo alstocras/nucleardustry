@@ -48,6 +48,7 @@ allowWaveSimulation: true
 clearSectorOnLose: false
 allowWaves: true
 defaultCore: core-proximity
+bloom: true
 
 
 
