@@ -21,7 +21,7 @@ weapons: [
         name: aleph-weapon
         ejectEffect: vapor
         rotate: true
-        range: 56
+        range: 96
         bullet: {
             type: BasicBulletType
             shootCone: 15
