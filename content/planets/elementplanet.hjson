@@ -14,6 +14,7 @@ iconColor: b7f2f7
 atmosphereRadIn: 0
 atmosphereRadOut: 0.1
 weather: []
+generator: serpulo
 mesh: [
   {
     type: NoiseMesh
