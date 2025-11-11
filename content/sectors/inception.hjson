@@ -2,10 +2,9 @@ type: SectorPreset
 displayName: "Inception"
 description: Begin the conquest. Discover and use hydrogen and helium.
 planet: elementplanet
+sector: 0
+core: core-proximity
 captureWave: 10
 difficulty: 1
 research: core-nucleus
 alwaysUnlocked: true
-allowLaunchLoadout: true
-addStartingItems: true
-sector: 0
