@@ -20,10 +20,11 @@ weapons: [
     {
         name: aleph-weapon
         ejectEffect: vapor
+        rotate: true
+        range: 56
         bullet: {
             type: BasicBulletType
             shootCone: 15
-            rotate: true
             inaccuracy: 2
             damage: 5
             shootSound: click
