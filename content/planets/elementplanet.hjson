@@ -37,6 +37,17 @@ cloudMesh: [
     color: e6f4f599
   }
 ]
+generator: {
+  octaves: 3
+  persistence: 0.52
+  scale: 22
+  mag: 0.721
+  thresh: 1.152
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+}
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: true
