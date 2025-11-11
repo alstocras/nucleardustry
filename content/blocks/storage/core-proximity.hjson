@@ -1,5 +1,6 @@
 type: CoreBlock
-name: Core: Proximity
+name: core-proximity
+displayName: "Core: Proximity"
 description: Core of the base. Relatively well armoured.
 requirements: [
   solid-hydrogen/3000
