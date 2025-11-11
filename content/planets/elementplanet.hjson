@@ -38,15 +38,7 @@ cloudMesh: [
   }
 ]
 generator: {
-  octaves: 3
-  persistence: 0.52
-  scale: 22
-  mag: 0.721
-  thresh: 1.152
-  min: 100
-  max: 100
-  radMin: 220
-  radMax: 600
+  planet: elementplanet
 }
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
