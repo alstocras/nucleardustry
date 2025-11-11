@@ -22,6 +22,8 @@ weapons: [
         ejectEffect: vapor
         rotate: true
         range: 96
+        x: 3
+        y: 5
         bullet: {
             type: BasicBulletType
             shootCone: 15
