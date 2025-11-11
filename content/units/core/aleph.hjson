@@ -22,8 +22,8 @@ weapons: [
         name: aleph-weapon
         ejectEffect: vapor
         rotate: true
-        x: 3
-        y: 5
+        x: 2
+        y: 4
         bullet: {
             type: BasicBulletType
             shootCone: 15
