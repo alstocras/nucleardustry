@@ -8,3 +8,4 @@ research: core-nucleus
 alwaysUnlocked: true
 allowLaunchLoadout: true
 addStartingItems: true
+sector: 0
