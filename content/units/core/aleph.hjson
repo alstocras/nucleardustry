@@ -18,13 +18,16 @@ alwaysUnlocked: true
 hitSize: 1.5
 weapons: [
     {
+        name: aleph-weapon
+        ejectEffect: vapor
         bullet: {
-            type: SapBulletType
+            type: BasicBulletType
             shootCone: 15
             rotate: true
             inaccuracy: 2
             damage: 5
-            shootSound: sap
+            shootSound: click
+            buildingDamageMultiplier: 0.01
         }
     }
 ]
