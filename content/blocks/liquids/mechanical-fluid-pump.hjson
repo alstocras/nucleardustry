@@ -2,7 +2,7 @@ name: Fluid Pump
 type: Pump
 pumpAmount: 0.5
 size: 1
-category: liquids
+category: liquid
 research: core-proximity
 researchCost: [
     solid-hydrogen/10
