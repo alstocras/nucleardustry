@@ -1,0 +1,12 @@
+name: Fluid Pump
+type: Pump
+pumpAmount: 0.5
+size: 1
+category: liquids
+research: core-proximity
+researchCost: [
+    solid-hydrogen/10
+]
+requirements: [
+    solid-hydrogen/2
+]
