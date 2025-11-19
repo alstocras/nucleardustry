@@ -10,3 +10,7 @@ researchCost: [
 requirements: [
     solid-hydrogen/2
 ]
+outputsLiquid: true
+hasLiquids: true
+solid: true
+placeableLiquid: true
