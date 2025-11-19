@@ -1,6 +1,6 @@
-name: Fluid Pump
+name: Mechanical Fluid Pump
 type: Pump
-pumpAmount: 0.5
+pumpAmount: 0.1
 size: 1
 category: liquid
 research: core-proximity
@@ -14,3 +14,4 @@ outputsLiquid: true
 hasLiquids: true
 solid: true
 placeableLiquid: true
+liquidRegion: mechanical-fluid-pump-liquid
