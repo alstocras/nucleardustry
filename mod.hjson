@@ -1,7 +1,7 @@
 name: "element-dustry"
 displayName: "Elemental Mindustry"
 author: alstocras
-description: "Adds elemental stuff to the game. And some physics and biology. And some biscuits, courtesy of reddycute."
+description: "Adds elemental stuff to the game. And some physics and biology. And some biscuits, courtesy of reddycute. Classical music too! \n Music: \n menu: Passacaglia and Fugue in C minor — J.S. Bach. MIDI by Jürgen Knuth, licensed CC-BY-NC-SA, arranged by alstocras, same license applies \n launch: 10 Preludes, Op. 23, No. 5 alla marcia in G minor — S. Rachmaninov, arranged by alstocras. \n land: DSCH Motif — D. Shostakovich, arranged by alstocras \n editor: Gnossiene No. 1 — E. Satie, arranged by alstocras \n game1: C minor — alstocras \n game2: Music for Strings, Percussion, and Celesta — B. Bartok, arranged by alstocras"
 version: "8.0"
 minGameVersion: "146"
 dependencies: [ ]
